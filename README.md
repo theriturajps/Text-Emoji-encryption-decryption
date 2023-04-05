@@ -1,10 +1,11 @@
 # Text-Emoji-encryption-decryption
-In this project there are 2 sections:
-1.Encryption
+In this project there are 2 sections:-
+
+1.Encryption:
 one can input some text with password
 to encrypt the text into emojis.
 
-2.Decryption
+2.Decryption:
 Here, if the encrypted text(i.e., emoji) and
 password are matched then we will get the
 actual text.
