@@ -42,16 +42,15 @@ img{
     transition: 0.3s ease;
 }
 
-#main>#encdec {
+#main>#encdec{
     align-items: center;
     display: flex;
     justify-content: space-between;
     background-color: #222;
-    padding: 10px;
-    width: 100%;
-    margin: 25px 0;
+    padding: 8px;
+    width: 20%;
+    margin: 35px 0;
 }
-
 #main>#encdec h3{
     font-size: 17px;
     display: flex;
@@ -68,9 +67,12 @@ img{
     align-items: center;
     margin-right: 5px;
 }
-#encryption {
-    width: 100%;
-    padding: 16px;
+#encryption{
+    display: none;
+    width: 45%;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: flex-start;
 }
 #encryption h5{
     font-size: 16px;
@@ -128,9 +130,12 @@ img{
 #encryption button span{
     margin-right: 10px;
 }
-#decryption {
-    width: 100%;
-    padding: 16px;
+#decryption{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: flex-start;
 }
 #decryption h5{
     font-size: 16px;
