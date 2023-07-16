@@ -68,12 +68,9 @@ img{
     align-items: center;
     margin-right: 5px;
 }
-#encryption{
-    display: none;
-    width: 45%;
-    flex-direction: column;
-    justify-content:space-around;
-    align-items: flex-start;
+#encryption {
+    width: 100%;
+    padding: 16px;
 }
 #encryption h5{
     font-size: 16px;
@@ -131,12 +128,9 @@ img{
 #encryption button span{
     margin-right: 10px;
 }
-#decryption{
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-    align-items: flex-start;
+#decryption {
+    width: 100%;
+    padding: 16px;
 }
 #decryption h5{
     font-size: 16px;
