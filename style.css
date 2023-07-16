@@ -193,3 +193,10 @@ img{
     margin-top: 40px;
 
 }
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  #main {
+    padding: 60px;
+}
+}
